@@ -3,6 +3,7 @@
     "react-on-screen": "^2.1.1"
   },
   "devDependencies": {
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.1.1"
   }
 }
