@@ -1,4 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+import('tailwindcss').Config
+// const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -29,7 +31,9 @@ module.exports = {
         "success-content": "#000000",
         "warning-content": "#000000",
         "error-content": "#ffffff"
-      },
+    },
+
+      
       fontFamily:{
         body:['Halant']
       },

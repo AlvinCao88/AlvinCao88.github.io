@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import fakeit from "../assets/img/fakeit.png"
+import datathon from "../assets/img/datathon.png"
+import lostinthevalley from "../assets/img/lostinthevalley.png"
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -9,19 +11,19 @@ export const Projects = () => {
   const projects = [
     {
       title: "Fake-It",
-      description: "Hack the Valley 8 Hackathon",
+      description: "Hack the Valley 8 Hackathon - Placed top 20 amaong 80+ projects and 200+ participants",
       imgUrl: fakeit,
     },
-    // {
-    //   title: "",
-    //   description: "Design & Development",
-    //   imgUrl: '',
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: '',
-    // },
+    {
+      title: "Trivial",
+      description: "DS3 Datathon 2022 - placed 6th among 20+ teams",
+      imgUrl: datathon,
+    },
+    {
+      title: "Lost in the Valley",
+      description: "Hack the Valley 7 - First ever Hackathon!!!",
+      imgUrl: lostinthevalley,
+    },
     // {
     //   title: "Business Startup",
     //   description: "Design & Development",
