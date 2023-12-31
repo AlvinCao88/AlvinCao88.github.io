@@ -1,5 +1,4 @@
 {
-  "homepage": "https://AlvinCao88.github.io/AlvinCao88",
   "name": "react-website",
   "version": "0.1.0",
   "private": true,
@@ -14,13 +13,11 @@
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "tailwindcss": "./tailwind.config.js",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "tailwindcss": "./tailwind.config.js"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,7 +42,6 @@
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.0"
   }
 }
